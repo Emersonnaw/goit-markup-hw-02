@@ -188,16 +188,17 @@ body {
     border-radius: 4px;
     cursor: pointer;
 }
+.filter-button:hover,
+.filter-button:focus {
+       background: #2196F3;
+       color: #FFFFFF;
+}
 /* content button */
 .btn-text {
     font-weight: 500;
     font-size: 16px;
     line-height: calc(26/16);
-    color: #212121;    
-}
-.filter-button:hover,
-.filter-button:focus {
-    background: #2196F3;
+    color: #212121;  
 }
 .project-items {
     font-weight: 700;
