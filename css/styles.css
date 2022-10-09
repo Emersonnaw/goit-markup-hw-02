@@ -51,17 +51,13 @@ body {
     color: #000000;
 }
 .link-color {
-   
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: calc(16/14);
     letter-spacing: 0.02em;
     color:#757575;
 }
-.link-text{
-    
-    font-style: normal;
+.link-text {
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
@@ -71,17 +67,16 @@ body {
 
 /* MAIN > HERO */
 .hero-title {
-    /* font-family: 'Roboto'; */
-    font-style: normal;
     font-weight: 900;
     font-size: 44px;
     line-height: calc(60/44);
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
     color: #FFFFFF;
 }
 /* Hero button wiev */
 .btn-wiev {
-    /* font-family: 'Roboto'; */
-    font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: calc(30/16);
@@ -97,8 +92,6 @@ body {
 
 /* Benefits title style */
 .benefits-title {
-    /* font-family: 'Roboto'; */
-    font-style: normal;
     font-weight: 700;
     font-size: 14px;
     line-height: calc(16/14);
@@ -108,8 +101,6 @@ body {
 }
 /*features -discription  */
 .peculiarities-text {
-    /* font-family: 'Roboto'; */
-    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: calc(24/14);
@@ -117,8 +108,6 @@ body {
     color: #757575;
 }
 .our-work {
-    /* font-family: 'Roboto'; */
-    font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: calc(42/36);
@@ -131,8 +120,6 @@ body {
 }
 /* our team style text */
 .our-team {
-    /* font-family: 'Roboto'; */
-    font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: 42px;
@@ -146,8 +133,6 @@ body {
 }
 /* names of team members styles */
 .members-team {
-    /* font-family: 'Roboto'; */
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: calc(19/16);
@@ -156,8 +141,6 @@ body {
     color: #212121;
 }
 .job-title {
-    /* font-family: 'Roboto'; */
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: calc(19/16); 
@@ -183,7 +166,6 @@ body {
     font-style: normal;
 }
 .link-addres-footer {
-   
     font-weight: 400;
     font-size: 14px;
     line-height: calc(24/14);
@@ -191,7 +173,6 @@ body {
     color: #FFFFFF;
 }
 .link-footer {
-    
     font-weight: 400;
     font-size: 14px;
     line-height: calc(24/14);
@@ -209,8 +190,6 @@ body {
 }
 /* content button */
 .btn-text {
-    /* font-family: 'Roboto';  */
-    font-style: normal; 
     font-weight: 500;
     font-size: 16px;
     line-height: calc(26/16);
@@ -219,32 +198,14 @@ body {
 .filter-button:hover,
 .filter-button:focus {
     background: #2196F3;
-    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-    border-radius: 4px;
-
-    /* font-family: 'Roboto';
-    font-style: normal; */
-    font-weight: 500;
-    font-size: 16px;
-    line-height: calc(26/16);
-    /* identical to box height, or 162% */
-    
-    text-align: center;
-    letter-spacing: 0.03em;
-    
-    color: #FFFFFF;
 }
 .project-items {
-    /* font-family: 'Roboto'; */
-    font-style: normal;
     font-weight: 700;
     font-size: 18px;
     line-height: calc(36/18);
     color: #212121;
 }
-.software-items {
-    
-    font-style: normal;
+.software-items { 
     font-weight: 400;
     font-size: 16px;
     line-height: calc(30/16);
