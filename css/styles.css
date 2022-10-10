@@ -4,18 +4,24 @@
     --main-color-1:#212121;
     --main-color-2: #757575;
     --main-color-3: #2196F3;
-    --main-color-4:#FFFFFF;
+    --main-color-4:#ffffff;
     --background-header-footer:#2F303A;
     --our-team-background:#F5F4FA; 
     --logo-studio-color:#000000; 
+    --accent-color:		#DC143C;
+
     
 }
-
+/* Background Header, Footer */
+.hero-background,
+.footer-background {
+    background-color:var( --background-header-footer);
+}
 body {
- background-color:var(--main-background-color);   
+    background-color:var(--main-background-color);   
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
-    color: #212121;
+    color:var(--main-color-1);
     letter-spacing: 0.03em
 } 
 /* add efects  */
@@ -33,16 +39,7 @@ body {
     margin: 0;
     padding: 0;
 }
-/* Background Header, Footer */
-.hero-background,
-.footer-background {
-    background-color:var( --background-header-footer);
-}
-/* backgrounds section */
-.benefits-background,
-.our-work-background {
-    background:var(--main-background-color);
-}
+
 /* HEADER */
 .header-background{
     background-color:var(--main-color-4) ;
@@ -63,22 +60,25 @@ body {
     letter-spacing: 0.03em;
     color:var(--logo-studio-color);
 }
-.link-color {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: calc(16/14);
-    letter-spacing: 0.02em;
-    color:var(--main-color-2);
-}
 .link-text {
     font-weight: 500;
-    font-size: 14px;
     line-height: calc(16/14);
     letter-spacing: 0.02em;
     color: var(--main-color-1);
 }
-
-/* MAIN > HERO */
+.link-color {
+    font-weight: 500;  
+    line-height: calc(16/14);
+    letter-spacing: 0.02em;
+    color:var(--main-color-2);
+}
+.accent-color {
+    color:var(--accent-color);
+}
+/* MAIN */
+.main-background {
+    background-color: var(--main-background-color);
+}
 .hero-title {
     font-weight: 900;
     font-size: 44px;
@@ -96,18 +96,20 @@ body {
     color:var(--main-color-4);
 }
 .btn {
-    font-family: inheret;
-    background:  #188CE8;
+    font-family:inherit;
+    background:  var(--main-color-3);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     cursor: pointer;
 } 
-/* Hero button text */
-
+.btn:hover,
+.btn:focus {
+    background-color: var(--main-color-4);
+    color: var( --main-color-1);
+}
 /* Benefits title style */
 .benefits-title {
     font-weight: 700;
-    font-size: 14px;
     line-height: calc(16/14);
     letter-spacing: 0.03em;
     text-transform: uppercase;
@@ -115,7 +117,6 @@ body {
 }
 /*features -discription  */
 .peculiarities-text {
-    font-size: 14px;
     line-height: calc(24/14);
     letter-spacing: 0.03em;
     color:var(--main-color-2);
@@ -177,21 +178,16 @@ body {
     font-style: normal;
 }
 .link-addres-footer {
-    font-size: 14px;
     line-height: calc(24/14);
     letter-spacing: 0.03em;
     color:var(--main-color-4);
 }
 .link-footer {
-    font-size: 14px;
     line-height: calc(24/14);
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
 }
 /* PORTFOLIO */
-.main-section-background {
-     background: var(--main-background-color); 
-}
 .filter-button {
     background: #F5F4FA;
     border-radius: 4px;
@@ -209,6 +205,9 @@ body {
     font-size: 16px;
     line-height: calc(26/16);
     color:var(--main-color-1);  
+}
+.project-background {
+    background-color: var(--main-color-4);
 }
 .project-items {
     font-weight: 700;
